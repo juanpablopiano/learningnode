@@ -1,0 +1,27 @@
+{
+	"name": "learningnode",
+	"version": "1.0.0",
+	"description": "A basic chat app with socket.io",
+	"main": "learningnode.js",
+	"scripts": {
+		"test": "jasmine",
+		"start": "nodemon --exec babel-node server.js",
+		"build": "babel server.js -d dist"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"dotenv": "^8.2.0",
+		"express": "^4.17.1",
+		"mongoose": "^5.9.26",
+		"socket.io": "^2.3.0"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.10.5",
+		"@babel/node": "^7.10.5",
+		"@babel/preset-env": "^7.10.4",
+		"jasmine": "^3.6.1",
+		"request": "^2.88.2"
+	}
+}
